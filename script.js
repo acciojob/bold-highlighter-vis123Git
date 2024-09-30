@@ -1,12 +1,16 @@
 function highlight() {
-    //Write your code here
-
-
+	let all_text = document.getElementsByTagName("strong")
+		for (let text of all_text) {
+			text.style.color = "green"; 
+		}
 }
 
 
 function return_normal() {
-    //Write your code here
-
+	function highlight() {
+	let all_text = document.getElementsByTagName("strong")
+		for (let text of all_text) {
+			text.style.removeProperty('color');
+		}
     
 }
